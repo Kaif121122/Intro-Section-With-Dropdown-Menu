@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Navbar  -->
+  <nav id="navbar">
+    <!-- Logo  -->
+    <div class="logo">
+      <img class="logo-img" src="./images/logo.svg" alt="">
+    </div>
+    <!-- Mobile-Menu  -->
+    <div class="nav-mob">
+
+      <div class="left-nav">
+
+        <div class="dropdown1">
+          <button class="dropbtn" id="features-dropdown">
+            Features
+            <img class="arrow-icon" id="arrow-up-icon1" src="./images/icon-arrow-down.svg" alt="">
+          </button>
+          <div class="dropdown-content1" id="my-dropdown1">
+            <div class="dropdown-items">
+              <img src="./images/icon-todo.svg" alt="">
+              <a href="" class="dropdown-link">Todo List</a>
+            </div>
+            <div class="dropdown-items">
+              <img src="./images/icon-calendar.svg" alt="">
+              <a href="" class="dropdown-link">Calendar</a>
+            </div>
+            <div class="dropdown-items">
+              <img src="./images/icon-reminders.svg" alt="">
+              <a href="" class="dropdown-link">Reminders</a>
+            </div>
+            <div class="dropdown-items">
+              <img src="./images/icon-planning.svg" alt="">
+              <a href="" class="dropdown-link">Planning</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="dropdown2">
+          <button class="dropbtn" id="company-dropdown">
+            Company
+            <img class="arrow-icon" id="arrow-up-icon2" src="./images/icon-arrow-down.svg" alt="">
+          </button>
+          <div class="dropdown-content2" id="my-dropdown2">
+            <div class="dropdown-items">
+              <a href="" class="dropdown-link">History</a>
+            </div>
+            <div class="dropdown-items">
+              <a href="" class="dropdown-link">Our Team</a>
+            </div>
+            <div class="dropdown-items">
+              <a href="" class="dropdown-link">Blog</a>
+            </div>
+
+
+          </div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="list-item"><a href="" class="item-link">Careers</a></li>
+          <li class="list-item"><a href="" class="item-link"> About</a></li>
+        </ul>
+      </div>
+
+      <div class="right-nav">
+        <button class="btn">Login</button>
+        <button class="btn reg-btn">Register</button>
+      </div>
+
+    </div>
+    <!-- Menu-Burger  -->
+    <div id="burger">
+      <img class="burger-img" src="./images/icon-menu.svg" alt="">
+    </div>
+  </nav>
+
+  <!-- Main-Section  -->
+  <main id="main">
+
+    <!-- Left-Container  -->
+    <section class="left-container">
+      <h1 class="main-heading">
+        Make remote work
+      </h1>
+      <p class="para">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+
+      </p>
+      <button class="learn-more-btn">
+        Learn more
+      </button>
+      <div class="bottom-logo">
+        <img src="./images/client-databiz.svg" alt="">
+        <img src="./images/client-audiophile.svg" alt="">
+        <img src="./images/client-meet.svg" alt="">
+        <img src="./images/client-maker.svg" alt="">
+      </div>
+    </section>
+
+    <!-- Right-Container  -->
+    <section class="right-container">
+      <img class="hero-img-desktop" src="./images/image-hero-desktop.png" alt="">
+      <img class="hero-img-phone" src="./images/image-hero-mobile.png" alt="">
+    </section>
+
+
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Md Kaif Ansari</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
